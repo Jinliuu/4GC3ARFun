@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="ARFun.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SapphiArt\SapphiArtchan\Scripts\SapphiArtChan_AnimManager.cs">
+    <Files>
+      <File FileName="Assets\SapphiArt\SapphiArtchan\Scripts\SapphiArtChan_AnimManager.cs" Line="63" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
