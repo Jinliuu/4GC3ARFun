@@ -303,7 +303,10 @@
     <Compile Include="Assets\buttonControl.cs" />
     <Compile Include="Assets\Elf\Script\Elf_Manager.cs" />
     <Compile Include="Assets\Elf\Script\Manager.cs" />
+    <Compile Include="Assets\muteSound.cs" />
+    <Compile Include="Assets\playAudio.cs" />
     <Compile Include="Assets\Simple Vector Icons\Sample\IconPreview.cs" />
+    <Compile Include="Assets\SoundControl.cs" />
     <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
     <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
     <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />

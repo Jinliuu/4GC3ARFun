@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class buttonControl : MonoBehaviour {
 
+    public AudioSource audioSource1;
+    public AudioSource audioSource2;
     public GameObject currentTarget;
     public GameObject currentTarget2;
     Animator currentAnimator;
@@ -26,6 +28,7 @@ public class buttonControl : MonoBehaviour {
         myAnimator.SetTrigger("onClick");
         currentAnimator.SetBool("Next",true);
         currentAnimator2.SetBool("Next", true);
+    
     }
 
     public void onStopClick()
@@ -33,6 +36,9 @@ public class buttonControl : MonoBehaviour {
         myAnimator.SetTrigger("onClick");
         currentAnimator.SetBool("Next", false);
         currentAnimator2.SetBool("Next", false);
+        audioSource1.mute = !audioSource1.mute;
+        audioSource2.mute = !audioSource2.mute;
+
     }
 
     public void onEnterEvent()
